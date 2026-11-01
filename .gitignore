@@ -1,0 +1,72 @@
+# Arduino / ESP32: generated build output
+build/
+cmake-build-*/
+.pio/
+.pioenvs/
+.piolibdeps/
+*.o
+*.obj
+*.a
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.d
+*.su
+compile_commands.json
+
+# Arduino IDE: machine-specific state and downloaded caches
+.arduinoIDE/
+.arduino15/
+arduino-cli.yaml
+
+# VS Code: local history, indexes and caches
+# Keep shared settings, tasks, launch configurations and extension recommendations.
+.history/
+**/.vscode/.browse.c_cpp.db*
+**/.vscode/ipch/
+*.code-workspace
+
+# Temporary files, editor backups and caches
+.cache/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local overrides and secrets: use sanitized examples for documentation
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.local
+*.local.*
+secrets/
+credentials/
+secrets.h
+arduino_secrets.h
+secrets.json
+credentials.json
+credentials.yaml
+credentials.yml
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Keep source code, READMEs, images and project configuration versioned.
+# In particular: *.ino, diagram.json, libraries.txt, wokwi.toml,
+# platformio.ini, sketch.yaml and shared .vscode/*.json are not ignored.
